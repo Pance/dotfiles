@@ -93,3 +93,6 @@ set scrolloff=3
 	" Treat .json files as .js
 "	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 "endif
+"Solarized
+set background=light
+colorscheme solarized
