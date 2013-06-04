@@ -1,3 +1,4 @@
+# cygwin color settings for the Solarized color scheme
 BoldAsFont=yes
 Term=xterm-256color
 BoldAsColour=yes
