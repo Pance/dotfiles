@@ -95,6 +95,8 @@ set scrolloff=3
 "endif
 " Keep intendation from previous line when starting a new line
 set autoindent
+" indenting with <<, >> and == will indent once
+set shiftwidth=2
 "Solarized
 set background=light
 colorscheme solarized
