@@ -93,6 +93,8 @@ set scrolloff=3
 	" Treat .json files as .js
 "	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
 "endif
+" Keep intendation from previous line when starting a new line
+set autoindent
 "Solarized
 set background=light
 colorscheme solarized
