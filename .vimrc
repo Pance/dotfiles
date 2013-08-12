@@ -100,3 +100,5 @@ set shiftwidth=2
 "Solarized
 set background=light
 colorscheme solarized
+"Tabs turn into spaces
+set expandtab
