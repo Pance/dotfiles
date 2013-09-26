@@ -71,8 +71,8 @@ set showcmd
 "	set relativenumber
 "	au BufReadPost * set relativenumber
 "endif
-" Start scrolling three lines before the horizontal window border
-set scrolloff=3
+" Start scrolling five lines before the horizontal window border
+set scrolloff=5
 
 " Strip trailing whitespace (,ss)
 "function! StripWhitespace()
