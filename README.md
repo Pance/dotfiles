@@ -10,12 +10,14 @@ This project is a customized fork of the excellent [dotfiles by Mathias Bynens](
 ### How to install using Git and the bootstrap script
 
 ```bash
-git clone https://github.com/Pance/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/Pance/dotfiles.git && cd dotfiles && git submodule foreach git pull origin master && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
 
 ```bash
+# update each git submodule before running bootstrap.sh
+git submodule foreach git pull origin master
 source bootstrap.sh
 ```
 

@@ -1,3 +1,7 @@
+" Enable the vim-pathogen bundle
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
