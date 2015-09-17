@@ -1,5 +1,8 @@
 # Pance’s dotfiles
-These dotfiles contain mostly Vim settings and the [Solarized color scheme](http://ethanschoonover.com/solarized) for Vim. These dotfiles are intended to be used alongside [oh-my-zsh](git@github.com:Pance/oh-my-zsh.git).
+These dotfiles contain mostly Vim settings and the [Solarized color scheme](http://ethanschoonover.com/solarized) for Vim. These dotfiles are intended to be used alongside [oh-my-zsh](https://github.com/Pance/oh-my-zsh).
+Additionally, this project installs [pathogen.vim](https://github.com/tpope/vim-pathogen) plugins as [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
+* [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+* [vim-airline](https://github.com/bling/vim-airline)
 
 This project is a customized fork of the excellent [dotfiles by Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 
