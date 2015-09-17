@@ -1,3 +1,8 @@
+" Use the Solarized Dark theme
+set background=dark
+colorscheme solarized
+let g:solarized_termtrans=1
+
 " Make Vim more useful
 set nocompatible " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set clipboard=unnamed
@@ -24,6 +29,9 @@ set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
+
+" Don’t create backups when editing files in certain directories
+set backupskip=/tmp/*,/private/tmp/*
 
 " Respect modeline in files
 "set modeline
@@ -66,39 +74,11 @@ set showmode
 set title
 " Show the (partial) command as it’s being typed
 set showcmd
-" Use relative line numbers
-"if exists("&relativenumber")
-"	set relativenumber
-"	au BufReadPost * set relativenumber
-"endif
 " Start scrolling five lines before the horizontal window border
 set scrolloff=5
-
-" Strip trailing whitespace (,ss)
-"function! StripWhitespace()
-"	let save_cursor = getpos(".")
-"	let old_query = getreg('/')
-"	:%s/\s\+$//e
-"	call setpos('.', save_cursor)
-"	call setreg('/', old_query)
-"endfunction
-"noremap <leader>ss :call StripWhitespace()<CR>
-" Save a file as root (,W)
-"noremap <leader>W :w !sudo tee % > /dev/null<CR>
-
-" Automatic commands
-"if has("autocmd")
-	" Enable file type detection
-"	filetype on
-	" Treat .json files as .js
-"	autocmd BufNewFile,BufRead *.json setfiletype json syntax=javascript
-"endif
 " Keep intendation from previous line when starting a new line
 set autoindent
 " indenting with <<, >> and == will indent once
 set shiftwidth=2
-"Solarized
-set background=light
-colorscheme solarized
 "Tabs turn into spaces
 set expandtab
