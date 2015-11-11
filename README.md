@@ -13,7 +13,7 @@ This project is a customized fork of the excellent [dotfiles by Mathias Bynens](
 ### How to install using Git and the bootstrap script
 
 ```bash
-git clone https://github.com/Pance/dotfiles.git && cd dotfiles && git submodule foreach git pull origin master && source bootstrap.sh
+git clone https://github.com/Pance/dotfiles.git --recursive && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
